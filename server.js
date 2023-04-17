@@ -14,7 +14,7 @@ import hotelsControllers from './hotels/hotels-controllers.js';
 
 // Paste DB link below
 const CONNECTION_STRING =
-	'mongodb+srv://tourist:tourist@cluster0.y9vkywl.mongodb.net/?retryWrites=true&w=majority';
+	'mongodb+srv://touristadmin:Northeastern%40123@cluster0.plzhu7r.mongodb.net/test'
 
 mongoose.connect(CONNECTION_STRING);
 // mongoose.connect('mongodb://127.0.0.1:27017/Tourist')
