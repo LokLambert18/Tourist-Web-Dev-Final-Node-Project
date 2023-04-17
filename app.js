@@ -10,7 +10,7 @@ import tuitController from './tuit-controllers/index.js'
 import userController from './users/users-controllers.js'
 import reviewsControllers from './reviews/reviews-controllers.js'
 
-const CONNECTION_STRING = 'mongodb+srv://touristadmin:Northeastern@123@cluster0.plzhu7r.mongodb.net/test'
+const CONNECTION_STRING = 'mongodb+srv://touristadmin:Northeastern%40123@cluster0.plzhu7r.mongodb.net/test'
 
 // mongoose.connect(CONNECTION_STRING)
 mongoose.connect('mongodb://127.0.0.1:27017/Tourist')
