@@ -22,12 +22,8 @@ mongoose.connect(CONNECTION_STRING);
 const app = express();
 
 app.use(
-	cors({
-		origin: 'http://localhost:3000',
-		methods: ['GET', 'POST', 'PUT', 'DELETE'],
-		credentials: true,
-	})
-);
+	cors()
+)
 
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
