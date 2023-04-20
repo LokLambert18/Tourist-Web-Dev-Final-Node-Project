@@ -21,8 +21,12 @@ mongoose.connect(CONNECTION_STRING);
 
 const app = express();
 
-app.use(cors())
-
+app.use(cors({
+    origin: ("https://glowing-valkyrie-b8a795.netlify.app"),
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+}
+))
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
