@@ -19,7 +19,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/Tourist')
 const app = express()
 
 app.use(cors({
-    origin: ("https://glowing-valkyrie-b8a795.netlify.app"),
+    origin: ("https://tourist-reactjsapp.netlify.app"),
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }
